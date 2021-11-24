@@ -1,0 +1,65 @@
+    body {
+        background-color: brown;
+    }
+    
+    a {
+        color: #FF00FF;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    p {
+        color: #FFFFFF;
+        font-weight: 100;
+    }
+    
+    p strong {
+        color: yellow;
+    }
+    
+    p::first-letter {
+        font-size: 1.25em;
+    }
+    
+    p span img {
+        width: 10em;
+    }
+    
+    .lists {
+        color: #FFFFFF;
+        font-weight: 100;
+    }
+    
+    .title {
+        color: #0080FF;
+        font-size: 3em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .listMovies {
+        color: #FFFFFF;
+        font-weight: 100;
+    }
+    
+    .subTitle {
+        font-size: 1.3em;
+        font-family: Apple Chancery, cursive;
+    }
+    
+    #movie {
+        font-style: italic;
+    }
+    
+    .detailsMovie li {
+        list-style: none;
+        font-family: 'Courier New', Courier, monospace;
+        color: #FFFFFF;
+    }
+    
+    .movieInfo {
+        color: yellow;
+        list-style: none;
+    }
